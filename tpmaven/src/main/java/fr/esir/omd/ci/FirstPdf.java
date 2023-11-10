@@ -1,4 +1,4 @@
-package fr.esir.mdi.ci.tpmaven;
+package fr.esir.omd.ci;
 
 import java.io.FileOutputStream;
 import java.util.Date;
