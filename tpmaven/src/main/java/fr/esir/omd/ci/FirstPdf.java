@@ -86,6 +86,18 @@ public class FirstPdf {
         document.newPage();
     }
 
+    static void codeMort(){
+        System.out.println("Hello World!");
+        int c1=0;
+        String nul = "nul";
+    }
+
+    static void codeMort2(){
+        System.out.println("Hello World!");
+        int c1=0;
+        String nul = "nul";
+    }
+
     static void addContent(Document document) throws DocumentException {
         Anchor anchor = new Anchor("First Chapter", catFont);
         anchor.setName("First Chapter");
