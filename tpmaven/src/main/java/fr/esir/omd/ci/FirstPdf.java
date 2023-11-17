@@ -1,5 +1,5 @@
 package fr.esir.omd.ci;
-//test conflit
+
 import java.io.FileOutputStream;
 import java.util.Date;
 
