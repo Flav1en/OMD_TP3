@@ -20,7 +20,9 @@ import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 
-
+/**
+ * Voilà la doc First PDF
+ */
 public class FirstPdf {
     private static String FILE = "FirstPdf.pdf";
     private static Font catFont = new Font(Font.FontFamily.TIMES_ROMAN, 18,
@@ -49,6 +51,11 @@ public class FirstPdf {
     // iText allows to add metadata to the PDF which can be viewed in your Adobe
     // Reader
     // under File -> Properties
+    /**
+     * Adds metadata to the PDF document.
+     * 
+     * @param document The PDF document.
+     */
     static void addMetaData(Document document) {
         document.addTitle("My first PDF");
         document.addSubject("Using iText");
@@ -86,15 +93,17 @@ public class FirstPdf {
         document.newPage();
     }
 
-    static void codeMort(){
+    static void codeMort() {
         System.out.println("Hello World!");
-        int c1=0;
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        int c1 = 0;
         String nul = "nul";
     }
 
-    static void codeMort2(){
+    static void codeMort2() {
         System.out.println("Hello World!");
-        int c1=0;
+        int c1 = 0;
         String nul = "nul";
     }
 

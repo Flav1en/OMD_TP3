@@ -1,7 +1,8 @@
 package fr.esir.omd.ci;
 
+
 /**
- * Hello world!
+ * ça marche bien!Ceci est un test de javadoc
  *
  */
 public class App 
