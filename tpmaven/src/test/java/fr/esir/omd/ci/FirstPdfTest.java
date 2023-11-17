@@ -21,6 +21,8 @@ public class FirstPdfTest {
 
         // Vérifie que l'auteur du document a été correctement ajouté
         assertEquals("Olivier Barais", pdfReader.getInfo().get("Author"));
+        
+        assertEquals("Using iText", pdfReader.getInfo().get("Subject"));
 
         // Fermer le lecteur PDF
         pdfReader.close();
